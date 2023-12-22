@@ -24,6 +24,10 @@ public class GenThree {
         System.out.println(random2);
         System.out.println(random3);
 
+        /*
+         * First I'm comparing between random1 and random2 using MathMin().
+         * The smaller between then get campared with random3, using the MathMin() call again.
+         */
         int minNum = Math.min(Math.min(random1, random2), random3);
         System.out.println("The minimal generated number was " + minNum);
 	}
