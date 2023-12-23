@@ -9,6 +9,6 @@ public class Triangle {
         int b = Integer.parseInt(args[1]);
         int c = Integer.parseInt(args[2]);
         boolean ValidTriangle = (a + b > c) && (a + c > b) && (b + c > a);
-        System.out.println("a: " + a + ", b: " + b + ", c: " + c + ", =: " + ValidTriangle);	
+        System.out.println(a +", " + b + ", " + c + ": " + ValidTriangle);	
 	}
 }

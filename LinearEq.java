@@ -10,7 +10,7 @@ public class LinearEq {
         double b = Double.parseDouble(args [1]);
         double c = Double.parseDouble(args [2]);
 
-        String equation = a+"x + " + b + " = " + c;
+        String equation = a+" * x + " + b + " = " + c;
         double x = (c - b) / (double) a;
         System.out.println(equation);
         System.out.println("x = " + x);
